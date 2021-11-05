@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MY PROJECT DAOUDI</title>
+  
+</head>
+
+<body>
+    <div class="final_quiz" style="display: none;">
+        <p class="scoore"></p>
+        <button class="btn">restart quiz</button>
+        
+
+    </div>
+    <div class= "QUIZ" style="display: none;">
+        <div class="numofquastion"></div>
+        <div class="startquiz">
+            <p id ="quastion"></p>
+            <p id="choice"></p>
+            <label id="q_1"></label>
+            <label id="q_2"></label>
+            <label id="q_3"></label>
+            <label id="q_4"></label>
+            <button id="submit">SUBMIT</button>
+            <button id="next">NEXT</button>
+
+        </div>
+        
+    </div>
+    <div class="settings" style="display: block;">
+        <h2>QUIZE SETTINGS</h2>
+        <label for="difuclty">selection caterory
+        <select name="" id="select">
+            <option value="" hidden>choice to qoustion</option>
+            <option value="9" id=""><h4>generle</h4></option>
+            <option value="21" id =""><h4>sport</h4></option>
+            <option value="23" id=""><h4>history</h4></option>
+            
+        </select>
+        </label>
+        <label for="level">
+            <input type="radio" id="easy" name="a"/>easy
+        </label>
+         <label for=""><input type="radio" id="medium" name="a"/>medium</label>  
+         <label for=""><input type="radio" id="hard" name="a"/>hard</label>
+            
+            
+            
+        </label><br>
+        <label for="numberofQ">
+            number of qoustion <input type="number" id="numberofQ">
+        </label><br>
+        <button id="start">START QUIZE</button>
+       
+
+    </div>
+    
+    
+    <script type="module" src="main.js"></script>
+    
+    
+</body>
+
+</html>
